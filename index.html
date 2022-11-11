@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>二维码生成接口 - 勿埋我心</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>二维码生成接口</h1>
+				<p>在下方输入链接，即可生成二维码。<br>
+					下载生成的图片，分享到微信或者QQ即可。</p>
+			</header>
+
+		<!-- Signup Form -->
+			<form id="signup-form" method="post">
+				<input type="url" name="url" id="url" placeholder="输入网址" />
+				<input type="button" value="生成" onclick="build_url()"/>
+			</form>
+			<p id="b_url"></p>
+
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<ul class="icons">
+
+					<li><a href="https://github.com/Qiantigers/QRcode" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+
+				</ul>
+				<ul class="copyright">
+					<li>&copy; Powered by <a href="https://www.qian.blue" target="_blank">勿埋我心</a></li>
+				</ul>
+			</footer>
+
+		<!-- Scripts -->
+			<script defer src="assets/js/main.js"></script>
+			<script defer src="assets/js/build_url.js"></script>
+			<script async type="text/javascript" src="https://js.users.51.la/21480329.js"></script>
+	</body>
+</html>
